@@ -1,4 +1,4 @@
-# 🔐 Data Security 2026 — Complete Enterprise Series
+# Data Security 2026 — Complete Enterprise Series
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Series](https://img.shields.io/badge/Series-6%20Parts-blue.svg)](#table-of-contents)
@@ -9,11 +9,11 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 | # | Part | Topics | Lines |
 |---|------|--------|-------|
-| 1 | [Tổng quan Data Security 2026](part1-tong-quan-data-security-2026.md) | Market ($214.7B), trends, frameworks, vendors | 299 |
+| 1 | [Tong quan Data Security 2026](part1-tong-quan-data-security-2026.md) | Market ($214.7B), trends, frameworks, vendors | 299 |
 | 2 | [Data Classification & Discovery](part2-data-classification-discovery.md) | AI-powered classification, 4-tier model, discovery | 243 |
 | 3 | [DLP & DSPM](part3-dlp-dspm.md) | DLP reset, DSPM active enforcement, convergence, DDR | 358 |
 | 4 | [Encryption, Tokenization & PETs](part4-encryption-tokenization-pets.md) | FHE, Confidential Computing, PQC, tokenization for AI | 313 |
@@ -22,7 +22,7 @@
 
 ---
 
-## 🎯 Key Highlights
+## Key Highlights
 
 ### Market & Economics
 - **$214.7B** — Data Security market size 2026 (13.4% CAGR)
@@ -31,75 +31,75 @@
 - **75%** — Organizations planning DSPM deployment by mid-2026
 
 ### Critical Events (2026)
-- 🏢 **Google acquires Wiz** — $32B (March 11, 2026)
-- 🇺🇸 **Trump AI Cybersecurity EO** — AI clearinghouse, voluntary framework (June 2, 2026)
-- 🌐 **Five Eyes Agentic AI Guidance** — First multi-government agentic AI security guidance (May 1, 2026)
-- 🇪🇺 **EU AI Act High-Risk Deadline** — August 2, 2026 (€35M / 7% fine)
-- 💥 **Grafana Labs breach** — Supply chain attack via TanStack (May 2026)
+- **Google acquires Wiz** — $32B (March 11, 2026)
+- **Trump AI Cybersecurity EO** — AI clearinghouse, voluntary framework (June 2, 2026)
+- **Five Eyes Agentic AI Guidance** — First multi-government agentic AI security guidance (May 1, 2026)
+- **EU AI Act High-Risk Deadline** — August 2, 2026 (EUR 35M / 7% fine)
+- **Grafana Labs breach** — Supply chain attack via TanStack (May 2026)
 
 ### Threat Landscape
 - **12 AI-specific data threats** mapped (poisoning, injection, inversion, MCP attacks)
 - **MCP tool poisoning** — Newest attack vector bypassing traditional DLP/IAM/SIEM
-- **Shadow AI → Shadow Operations** — Agents with high-privilege access in approved software
+- **Shadow AI to Shadow Operations** — Agents with high-privilege access in approved software
 - **44%** of all incidents now ransomware-related
 
 ---
 
-## 🏗️ Who Is This For?
+## Who Is This For?
 
 - **CISOs & Security Leaders** — Strategic landscape, vendor evaluation, board metrics
 - **Security Architects** — Architecture patterns, technology deep-dives, implementation frameworks
 - **Cloud Security Engineers** — Practical controls for AWS/Azure/GCP, Kubernetes, serverless
-- **Compliance Officers** — Regulatory mapping, EU AI Act, GDPR×AI, US state laws
+- **Compliance Officers** — Regulatory mapping, EU AI Act, GDPR x AI, US state laws
 - **AI/ML Engineers** — Securing training data, RAG pipelines, agentic AI systems
 
 ---
 
-## 📚 Sources & Research
+## Sources & Research
 
 This series synthesizes 60+ sources including:
 
 | Category | Sources |
 |----------|---------|
-| **Market Research** | MarkWide, Grand View Research, Fortune Business Insights, Frost & Sullivan |
-| **Analyst Reports** | Forrester Wave Q2 2026, GigaOm DSPM Radar 2026, Gartner |
-| **Vendor Research** | Palo Alto Networks, Forcepoint, Mindgard, BigID, Cyberhaven |
-| **Government/Standards** | NIST AI RMF, CISA/NSA, OWASP, EU AI Act, White House EO |
-| **Academic** | arXiv papers on FHE, PQC, LLM privacy |
-| **Industry News** | TechCrunch, SecurityWeek, CIO.com, IBM Reports |
+| Market Research | MarkWide, Grand View Research, Fortune Business Insights, Frost & Sullivan |
+| Analyst Reports | Forrester Wave Q2 2026, GigaOm DSPM Radar 2026, Gartner |
+| Vendor Research | Palo Alto Networks, Forcepoint, Mindgard, BigID, Cyberhaven |
+| Government/Standards | NIST AI RMF, CISA/NSA, OWASP, EU AI Act, White House EO |
+| Academic | arXiv papers on FHE, PQC, LLM privacy |
+| Industry News | TechCrunch, SecurityWeek, CIO.com, IBM Reports |
 
 ---
 
-## 🗺️ Series Architecture
+## Series Architecture
 
 ```
 Part 1: LANDSCAPE          What's happening? Market, trends, threats
-     │
+     |
 Part 2: FOUNDATION         Where is sensitive data? Classification & Discovery
-     │
+     |
 Part 3: ENFORCEMENT        How to prevent loss? DLP + DSPM + DDR
-     │
+     |
 Part 4: PROTECTION         How to protect at rest/in-use? Encryption & PETs
-     │
+     |
 Part 5: AI & CLOUD         How to secure AI workloads? AI/ML + Cloud Native
-     │
+     |
 Part 6: GOVERNANCE         How to comply & implement? Compliance + 12-month roadmap
 ```
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 If you're short on time:
 
-1. **Executive summary** → Read Part 1 (sections 1-2)
-2. **Implementation plan** → Jump to Part 6 (section 5: 12-month roadmap)
-3. **AI-specific threats** → Part 5 (section 1: threat landscape)
-4. **Vendor comparison** → Part 3 (section 4: vendor landscape)
+1. **Executive summary** — Read Part 1 (sections 1-2)
+2. **Implementation plan** — Jump to Part 6 (section 5: 12-month roadmap)
+3. **AI-specific threats** — Part 5 (section 1: threat landscape)
+4. **Vendor comparison** — Part 3 (section 4: vendor landscape)
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! If you find outdated information or want to add coverage:
 
@@ -110,13 +110,13 @@ Contributions welcome! If you find outdated information or want to add coverage:
 
 ---
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👤 Author
+## Author
 
 **Van Hoang Kha** — Cloud Security Engineer
 
