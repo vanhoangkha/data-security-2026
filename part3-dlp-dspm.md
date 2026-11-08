@@ -191,11 +191,11 @@ DSPM Platform
 
 | Problem | DLP alone | DSPM alone | DLP + DSPM |
 |---------|-----------|-----------|-----------|
-| Detect sensitive data exposure | ❌ No visibility | ✅ Discovers exposure | ✅ |
-| Block data exfiltration | ✅ Enforces blocks | ❌ No enforcement | ✅ |
-| Prioritize which policy to enforce | ❌ Same rules everywhere | ✅ Risk-scored | ✅ Context-aware enforcement |
-| Remediate misconfigurations | ❌ Not in scope | ✅ Auto-remediate | ✅ |
-| Track data lineage into AI | ❌ Limited | ✅ Flow mapping | ✅ End-to-end |
+| Detect sensitive data exposure | No visibility | Discovers exposure | Yes |
+| Block data exfiltration | Enforces blocks | No enforcement | Yes |
+| Prioritize which policy to enforce | Same rules everywhere | Risk-scored | Context-aware enforcement |
+| Remediate misconfigurations | Not in scope | Auto-remediate | Yes |
+| Track data lineage into AI | Limited | Flow mapping | End-to-end |
 
 ### 3.2 Unified Architecture
 
@@ -250,11 +250,11 @@ DSPM Platform
 
 | Feature | Symantec (Broadcom) | Microsoft 365 DLP | Forcepoint | Zscaler |
 |---------|--------------------|--------------------|------------|---------|
-| Network DLP | ✅ | ❌ | ✅ | ✅ (inline) |
-| Endpoint DLP | ✅ | ✅ | ✅ | Limited |
-| Cloud/SaaS DLP | ✅ | ✅ (M365 native) | ✅ | ✅ |
-| AI/LLM DLP | Limited | ✅ (Copilot) | ✅ | Growing |
-| Behavioral analytics | ✅ | ✅ | ✅ (Risk-Adaptive) | Limited |
+| Network DLP | Yes | No | Yes | (inline) |
+| Endpoint DLP | Yes | Yes | Yes | Limited |
+| Cloud/SaaS DLP | Yes | (M365 native) | Yes | Yes |
+| AI/LLM DLP | Limited | (Copilot) | Yes | Growing |
+| Behavioral analytics | Yes | Yes | (Risk-Adaptive) | Limited |
 | DSPM integration | Third-party | Purview DSPM | Native | Limited |
 | Strengths | Deep customization | M365 ecosystem | Unified platform | SSE integration |
 | Best for | Complex enterprise | Microsoft shops | Data-first orgs | SASE architecture |

@@ -35,7 +35,7 @@ Phần này tập trung vào: **Bảo vệ dữ liệu trong và xung quanh AI s
 │  [API serving, [User prompts, [Drift,      [Safe disposal       │
 │   integration]  RAG retrieval] anomalies]   of model + data]    │
 │                                                                  │
-│  ⚠️ SECURITY REQUIRED AT EVERY STAGE ⚠️                         │
+│ SECURITY REQUIRED AT EVERY STAGE │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -326,22 +326,22 @@ MCP Security Checklist (Nightfall AI + Strac.io, 2026):
 ### 10-Step Implementation (aligned with NIST AI RMF)
 
 **GOVERN:**
-1. ☐ Assign executive owner for AI security
-2. ☐ Build live inventory of all AI systems (including shadow AI)
+1. [ ] Assign executive owner for AI security
+2. [ ] Build live inventory of all AI systems (including shadow AI)
 
 **MAP:**
-3. ☐ Classify each AI system by risk level
-4. ☐ Map all data flows in/out of AI systems
+3. [ ] Classify each AI system by risk level
+4. [ ] Map all data flows in/out of AI systems
 
 **MEASURE:**
-5. ☐ Implement continuous AI red teaming (OWASP LLM Top 10)
-6. ☐ Deploy runtime monitoring (prompt injection, jailbreak detection)
+5. [ ] Implement continuous AI red teaming (OWASP LLM Top 10)
+6. [ ] Deploy runtime monitoring (prompt injection, jailbreak detection)
 
 **MANAGE:**
-7. ☐ Wire AI findings into SIEM/SOAR workflows
-8. ☐ Build AI-specific incident response playbooks
-9. ☐ Apply DLP + RBAC + MFA to all AI access points
-10. ☐ Quarterly review cycle as new AI capabilities deploy
+7. [ ] Wire AI findings into SIEM/SOAR workflows
+8. [ ] Build AI-specific incident response playbooks
+9. [ ] Apply DLP + RBAC + MFA to all AI access points
+10. [ ] Quarterly review cycle as new AI capabilities deploy
 
 ---
 
