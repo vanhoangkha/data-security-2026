@@ -102,7 +102,7 @@ FHE cho phép **thực hiện computation trên encrypted data mà không cần 
 
 ```
 Plaintext → Encrypt → Compute on Ciphertext → Decrypt → Same Result
-    A                    f(Enc(A))                       f(A) ✓
+    A f(Enc(A)) f(A)
 ```
 
 ### 4.2 FHE Maturity 2026
@@ -169,7 +169,7 @@ Use cases:
 │                      │  AI Model runs    │  │
 │  ┌──────────────┐    │  inside TEE       │  │
 │  │  Encrypted   │◀───│                   │  │
-│  │  Output      │    │  Attestation ✓    │  │
+│ │ Output │ │ Attestation │ │
 │  └──────────────┘    └───────────────────┘  │
 │                                              │
 │  Neither cloud provider nor other tenants    │

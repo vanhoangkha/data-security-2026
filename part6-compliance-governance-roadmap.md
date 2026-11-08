@@ -291,76 +291,76 @@ Automated Remediation (Auto-fix non-compliant resources)
 ### 5.2 Phase 1: Foundation (Month 1-3)
 
 **Week 1-2: Governance Setup**
-- ☐ Assign executive sponsor (CISO or CDO)
-- ☐ Form Data Security Working Group
-- ☐ Draft/update Data Classification Policy
-- ☐ Draft AI Acceptable Use Policy
-- ☐ Identify regulatory obligations (which regulations apply?)
+- [ ] Assign executive sponsor (CISO or CDO)
+- [ ] Form Data Security Working Group
+- [ ] Draft/update Data Classification Policy
+- [ ] Draft AI Acceptable Use Policy
+- [ ] Identify regulatory obligations (which regulations apply?)
 
 **Week 3-4: Discovery & Assessment**
-- ☐ Deploy DSPM (connect cloud accounts, SaaS APIs)
-- ☐ Run initial data discovery scan
-- ☐ Identify crown jewel data assets
-- ☐ Baseline current data exposure
+- [ ] Deploy DSPM (connect cloud accounts, SaaS APIs)
+- [ ] Run initial data discovery scan
+- [ ] Identify crown jewel data assets
+- [ ] Baseline current data exposure
 
 **Week 5-8: Classification & Quick Wins**
-- ☐ Deploy AI-powered classification
-- ☐ Validate with data owners
-- ☐ Fix critical exposure immediately:
+- [ ] Deploy AI-powered classification
+- [ ] Validate with data owners
+- [ ] Fix critical exposure immediately:
   - Revoke public access to sensitive data
   - Enable encryption where missing
   - Remove stale admin accounts
   - Close overly permissive sharing
 
 **Week 9-12: Posture Hardening**
-- ☐ Implement customer-managed keys for critical data
-- ☐ Deploy secrets management (Vault/AWS SM)
-- ☐ Set up continuous DSPM monitoring
-- ☐ Build compliance dashboards
+- [ ] Implement customer-managed keys for critical data
+- [ ] Deploy secrets management (Vault/AWS SM)
+- [ ] Set up continuous DSPM monitoring
+- [ ] Build compliance dashboards
 
 ### 5.3 Phase 2: Enforcement (Month 4-6)
 
 **DLP Rollout:**
-- ☐ Week 1-2: Deploy DLP in monitor mode
-- ☐ Week 3-4: Analyze patterns, tune policies
-- ☐ Week 5-6: Enable warnings for users
-- ☐ Week 7-8: Enforce blocking for critical violations
-- ☐ Week 9-12: Extend to AI tools (sanctioned gateway)
+- [ ] Week 1-2: Deploy DLP in monitor mode
+- [ ] Week 3-4: Analyze patterns, tune policies
+- [ ] Week 5-6: Enable warnings for users
+- [ ] Week 7-8: Enforce blocking for critical violations
+- [ ] Week 9-12: Extend to AI tools (sanctioned gateway)
 
 **AI Governance:**
-- ☐ Build AI model registry
-- ☐ Classify all AI systems by risk
-- ☐ Implement AI data use approval workflow
-- ☐ Deploy sanctioned AI gateway
-- ☐ Employee training on AI data handling
+- [ ] Build AI model registry
+- [ ] Classify all AI systems by risk
+- [ ] Implement AI data use approval workflow
+- [ ] Deploy sanctioned AI gateway
+- [ ] Employee training on AI data handling
 
 **Incident Response:**
-- ☐ Build data-specific IR playbooks
-- ☐ AI breach scenario playbooks
-- ☐ Integrate DLP/DSPM alerts with SIEM
-- ☐ Conduct tabletop exercise
+- [ ] Build data-specific IR playbooks
+- [ ] AI breach scenario playbooks
+- [ ] Integrate DLP/DSPM alerts with SIEM
+- [ ] Conduct tabletop exercise
 
 ### 5.4 Phase 3: Advanced (Month 7-9)
 
 **AI Security:**
-- ☐ Deploy continuous AI red teaming
-- ☐ Runtime monitoring for prompt injection, jailbreaks
-- ☐ Implement RAG security controls
-- ☐ Agent tool-call gating
+- [ ] Deploy continuous AI red teaming
+- [ ] Runtime monitoring for prompt injection, jailbreaks
+- [ ] Implement RAG security controls
+- [ ] Agent tool-call gating
 
 **Advanced Protection:**
-- ☐ Evaluate confidential computing for regulated AI workloads
-- ☐ Deploy DDR (Data Detection & Response)
-- ☐ Implement differential privacy for AI training
-- ☐ Begin post-quantum crypto inventory
+- [ ] Evaluate confidential computing for regulated AI workloads
+- [ ] Deploy DDR (Data Detection & Response)
+- [ ] Implement differential privacy for AI training
+- [ ] Begin post-quantum crypto inventory
 
 ### 5.5 Phase 4: Optimization (Month 10-12)
 
-- ☐ Consolidate tools (reduce vendor sprawl)
-- ☐ Optimize DLP policies (reduce false positives <15%)
-- ☐ Quantify risk reduction for board reporting
-- ☐ Automate compliance evidence collection
-- ☐ Plan next year roadmap based on metrics
+- [ ] Consolidate tools (reduce vendor sprawl)
+- [ ] Optimize DLP policies (reduce false positives <15%)
+- [ ] Quantify risk reduction for board reporting
+- [ ] Automate compliance evidence collection
+- [ ] Plan next year roadmap based on metrics
 
 ---
 
@@ -402,24 +402,24 @@ Automated Remediation (Auto-fix non-compliant resources)
 
 ### 7.1 Do's
 
-✅ **Start with data discovery** — Bạn không thể bảo vệ thứ không biết
-✅ **Executive sponsorship** — Data security là board-level issue
-✅ **Phased approach** — Monitor → Warn → Enforce, không rush blocking
-✅ **Business alignment** — Involve data owners, reduce friction
-✅ **Measure and report** — Quantify risk reduction for executives
-✅ **AI-first mindset** — Build for AI era, not legacy perimeters
-✅ **Compliance by design** — Embed compliance into architecture, not bolt-on
-✅ **Continuous improvement** — Quarterly reviews, threat landscape evolves
+**Start with data discovery** — Bạn không thể bảo vệ thứ không biết
+**Executive sponsorship** — Data security là board-level issue
+**Phased approach** — Monitor → Warn → Enforce, không rush blocking
+**Business alignment** — Involve data owners, reduce friction
+**Measure and report** — Quantify risk reduction for executives
+**AI-first mindset** — Build for AI era, not legacy perimeters
+**Compliance by design** — Embed compliance into architecture, not bolt-on
+**Continuous improvement** — Quarterly reviews, threat landscape evolves
 
 ### 7.2 Don'ts
 
-❌ **Don't deploy DLP in block mode day 1** — Sẽ break workflows
-❌ **Don't ignore shadow AI** — $670K extra per breach
-❌ **Don't treat as IT project** — Requires business + legal + security collaboration
-❌ **Don't buy tools without strategy** — Tool sprawl worse than no tools
-❌ **Don't forget unstructured data** — 80%+ of enterprise data
-❌ **Don't skip training** — Users are both biggest risk and first defense
-❌ **Don't rely on single vendor** — Defense-in-depth requires layers
+**Don't deploy DLP in block mode day 1** — Sẽ break workflows
+**Don't ignore shadow AI** — $670K extra per breach
+**Don't treat as IT project** — Requires business + legal + security collaboration
+**Don't buy tools without strategy** — Tool sprawl worse than no tools
+**Don't forget unstructured data** — 80%+ of enterprise data
+**Don't skip training** — Users are both biggest risk and first defense
+**Don't rely on single vendor** — Defense-in-depth requires layers
 
 ---
 
